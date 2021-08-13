@@ -24,11 +24,11 @@
 
 ## Como executar
 
-  a. DockerHub
+  * DockerHub
     1.  docker push fredzstevanato/golang:prod
     2.  docker run --rm fredzstevanato/golang:prod
   
-  b. Github
+  * Github
     1. git clone https://github.com/fredzstevanato/desafio-fullcycle-golang.git
     2. docker build -t fredzstevanato/golang:prod .
     3. docker run --rm fredzstevanato/golang:prod
